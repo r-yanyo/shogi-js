@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>将棋</title>
+    <link rel="stylesheet" type="text/css" href="css/design.css" />
+    <script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="global.js"></script>
+    <script type="text/javascript" src="UI.js"></script>
+    <script type="text/javascript" src="move.js"></script>
+    <script type="text/javascript" src="AI.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">将棋</div>
+      <div class="wrapper">
+        <div style="position:relative;" id="gote-capture"></div>
+        <div style="position:relative;" id="ban">
+          <img style="position:absolute;" src="res2/board8.png" />
+          <div style="position:absolute;" id="board"></div>
+        </div>
+        <div style="position:relative;" id="sente-capture"></div>
+        <div style="position:relative;" id="message"></div>
+      </div>
+    </div>
+
+    <div style="display:none">
+      <p style="position:absolute;" id="text"></p>
+      <img style="position:absolute;" id="empty" src="res2/null2.png" />
+      <img style="position:absolute;" id="kyou" src="res3/kyou.png" />
+      <img style="position:absolute;" id="kei" src="res3/kei.png" />
+      <img style="position:absolute;" id="gin" src="res3/gin.png" />
+      <img style="position:absolute;" id="kin" src="res3/kin.png" />
+      <img style="position:absolute;" id="ou" src="res3/ou.png" />
+      <img style="position:absolute;" id="hisya" src="res3/hisya.png" />
+      <img style="position:absolute;" id="kaku" src="res3/kaku.png" />
+      <img style="position:absolute;" id="fu" src="res3/fu.png" />
+      <img style="position:absolute;" id="to" src="res3/to.png" />
+      <img style="position:absolute;" id="nkyou" src="res3/nkyou.png" />
+      <img style="position:absolute;" id="nkei" src="res3/nkei.png" />
+      <img style="position:absolute;" id="ngin" src="res3/ngin.png" />
+      <img style="position:absolute;" id="ryu" src="res3/ryu.png" />
+      <img style="position:absolute;" id="uma" src="res3/uma.png" />
+
+      <img style="position:absolute;" id="e_kyou" src="res3/e_kyou.png" />
+      <img style="position:absolute;" id="e_kei" src="res3/e_kei.png" />
+      <img style="position:absolute;" id="e_gin" src="res3/e_gin.png" />
+      <img style="position:absolute;" id="e_kin" src="res3/e_kin.png" />
+      <img style="position:absolute;" id="e_ou" src="res3/gyoku.png" />
+      <img style="position:absolute;" id="e_hisya" src="res3/e_hisya.png" />
+      <img style="position:absolute;" id="e_kaku" src="res3/e_kaku.png" />
+      <img style="position:absolute;" id="e_fu" src="res3/e_fu.png" />
+      <img style="position:absolute;" id="e_to" src="res3/e_to.png" />
+      <img style="position:absolute;" id="e_nkyou" src="res3/e_nkyou.png" />
+      <img style="position:absolute;" id="e_nkei" src="res3/e_nkei.png" />
+      <img style="position:absolute;" id="e_ngin" src="res3/e_ngin.png" />
+      <img style="position:absolute;" id="e_ryu" src="res3/e_ryu.png" />
+      <img style="position:absolute;" id="e_uma" src="res3/e_uma.png" />
+
+      <img style="position:absolute;" id="selected" src="res/move2.png" />
+      <img style="position:absolute;" id="move" src="res/move2.png" />
+    </div>
+
+    <audio id="utu" preload="auto">
+      <source src="sound/utu.mp3" type="audio/mp3" />
+    </audio>
+  </body>
+</html>

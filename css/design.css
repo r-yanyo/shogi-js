@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html,body { height:100%; }
+.container{
+	background-color: #F5DEB3;
+	width: 100%;
+	height: 100%;
+}
+
+.header{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'HG行書体';
+	font-size: 400%;
+	height: 80px;
+	width: 900px;
+	text-align: center;
+}
+
+.wrapper{
+	background-image: url("../res2/background3.png");
+	-moz-user-select: none; /* Firefox */ /* 要素を選択出来ないようにする */
+	-webkit-user-select: none; /* Safari、Chromeなど */
+	-ms-user-select: none; /* IE10かららしい */	
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	height: 550px;
+	border-radius: 0.5em;
+}
+
+#board{
+	width: 487px; 
+	height: 487px;
+}
+
+#ban{
+	margin: 30px;
+	width: 487px; 
+	height: 487px;
+	float: left;
+}
+
+#message{
+	font-family: 'HG行書体';
+	float: left;
+
+}
+
+#sente-capture{
+	margin: 5px;
+	background-image: url("../res2/capture.png");
+	top: 327px;
+	width: 160px;
+	height: 160px;
+	float: left;
+}
+
+#gote-capture{
+	margin: 5px;
+	background-image: url("../res2/capture.png");
+	width: 160px;
+	height: 160px;
+	float: left;
+}
+
+#board img{
+	border-collapse: collapse;
+	border: 0px;
+}
